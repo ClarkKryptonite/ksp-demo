@@ -1,5 +1,5 @@
 package org.example
 
-@Retention(AnnotationRetention.SOURCE)
+@Retention(AnnotationRetention.BINARY)
 @Target(AnnotationTarget.PROPERTY)
 annotation class MarkNodeTransit(val jsonStr: String)
